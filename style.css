@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(14, 40, 39);
+}
+
+
+div#main {
+    text-align: center;
+}
+
+p#log {
+    background-color: darkslategrey;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    padding: 8px 12px;
+    width: 900px;
+    margin: 10px auto;
+}
+
+footer {
+    color: white;
+    font-weight: normal;
+    font-size: 1em;   
+    text-align: center; 
+}
+
+a {
+    color: #7163e7
+}
