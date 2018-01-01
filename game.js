@@ -25,7 +25,10 @@ let entities = [];
 let player = {};
 
 let w = window;
-requestAnimationFrame = w.requestAnimationFrame || w.webkitRequestAnimationFrame || w.msRequestAnimationFrame || w.mozRequestAnimationFrame;
+requestAnimationFrame = w.requestAnimationFrame ||
+        w.webkitRequestAnimationFrame           ||
+        w.msRequestAnimationFrame               ||
+        w.mozRequestAnimationFrame;
 
 
 // log //////////////////////////////////////////
